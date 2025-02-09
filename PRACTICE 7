@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://mysever.com" method="post">
+       <label for="Họ và tên">Họ và tên</label>
+       <input type="text" name="Họ và tên" id="Họ và tên">
+       <br>
+       <label for="Email">Email</label>
+       <input type="email" name="Email" id="Email">
+       <br>
+       <label for="Ngày sinh">Ngày sinh</label>
+       <input type="date" name="Ngày sinh" id="Ngày sinh">
+       <br>
+       <label for="Giới tính">Giới tính</label>
+       <input type="radio" name="Giới tính" id="Giới tính" value="Nam">Nam
+       <input type="radio" name="Giới tính" id="Giới tín" value="Nữ">Nữ
+       <br>
+       <label for="Số điện thoại">Số điện thoại</label>
+       <input type="tel" name="Số điện thoại" id="Số điện thoại" pattern="[0-9]{10}">
+       <br>
+       <label for="Chuyên ngành">Chuyên ngành</label>
+       <input type="text" name="Chuyên ngành" id="Chuyên ngành">
+       <br>
+       <label for="Năm nhập học">Năm nhập học</label>
+       <input type="number" min="0" name="Năm nhập học" id="Năm nhập học">
+       <br>
+       <label for="Điểm GPA">Điểm GPA</label>
+       <input type="number" min="0" name="Điểm GPA" id="Điểm GPA">
+       <br>
+       <label for="Địa chỉ">Địa chỉ</label>
+       <textarea name="Địa chỉ" id="Địa chỉ" cols="30" rows="3"></textarea>
+       <br>
+       <label for="Lớp học">Lớp học</label>
+       <select name="Lớp học" id="Lớp học">
+        <option value="Lớp 1">Lớp 1</option>
+        <option value="Lớp 2">Lớp 2</option>
+       </select>
+       <br>
+       <label for="">Ngày đăng kí</label>
+       <input type="datetime-local" name="Ngày đăng kí" id="Ngày đăng kí">
+       <br>      
+       <button type = "submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
