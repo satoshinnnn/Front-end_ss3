@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action="htttp://myserver.com" method="post">
+    <label for="Họ và tên">Họ và tên:</label>
+    <input type="text" name="Họ và tên" id="Họ và tên">
+    <br>
+    <label for="Ngày sinh">Ngày sinh:</label>
+    <input type="date" name="Ngày sinh" id="Ngày sinh">
+    <br>
+    <label for="Giới tính">Giới tình:</label>
+    <input type="radio" name="Giới tính" id="Giới tính">Nam
+    <input type="radio" name="Giới tính" id="Giới tính">Nữ
+    <br>
+    <label for="Số căn cước công dân">Số căn cước công dân:</label>
+    <input type="tel" name="Số căn cước công dân" id="Số căn cước công dân" pattern="[0-9]{11}" >
+    <br>
+    <label for="Ngày cấp">Ngày cấp:</label>
+    <input type="date" name="Ngày cấp" id="Ngày cấp">
+    <br>
+    <label for="Nơi cấp">Nơi cấp:</label>
+    <input type="text" name="Nơi cấp" id="Nơi cấp">
+    <br>
+    <label for="Số điện thoại">Số điện thoại</label>
+    <input type="tel" name="Số điện thoại" id="Số điện thoại" pattern="[0-9]{10}">
+    <br>
+    <label for="Email">Email:</label>
+    <input type="email" name="Email" id="Email">
+    <br>
+    <label for="Địa chỉ thường chú">Địa chỉ thường trú:</label>
+    <textarea name="Địa chỉ thường chú" id="" cols = "30" rows = "2"></textarea>
+    <br>    
+    <label for="Địa chỉ tạm trú">Địa chỉ tạm trú:</label>
+    <textarea name="Địa chỉ tạm trú" id="Địa chỉ tạm trú" cols="30" rows="2"></textarea>
+    <br>
+    <label for="Loại căn cước công dân">Loại căn cước cong dân:</label>
+    <input type="radio" name="Loại căn cước công dân" id="Loại căn cước công dân">Căn cước công dân mới
+    <input type="radio" name="Loại căn cước công dân" id="Loại căn cước công dân">Căn cước công dân cũ
+    <br>
+    <label for="Dân tộc">Dân tộc:</label>
+    <input type="text" name="Dân tộc" id="Dân tộc">
+    <br>    
+    <label for="Tôn giáo">Tôn giáo:</label>
+    <input type="text" name="Tôn giáo" id="Tôn giáo">
+    <br>
+    <label for="Quốc tịch">Quốc tịch:</label>
+    <input type="text" name="Quốc tịch" id="Quốc tịch" value="Việt Nam">
+    <br>
+    <label for="Họ tên chan mẹ">Họ tên cha/mẹ</label>
+    <input type="text" name="Họ tên cha/mẹ" id="Họ tên cha/mẹ">
+    <br>
+    <label for="Số CMND/CCCD của cha/mẹ">Số CMND/CCCD của cha/mẹ</label>
+    <input type="number" name="Số CMND/CCCD của cha/mẹ" id="Số CMND/CCCD của cha/mẹ">
+    <br>   
+    <label for="Tỉnh/Thành phố">Tỉnh/Thành phố:</label>
+    <select name="Tỉnh/Thành phố" id="Tỉnh/Thành phố">
+        <option value="Hồ chí minh" > Hồ Chí Minh </option>
+        <option value="Hà Nội">Hà nội</option>
+    </select>
+    <br>
+    <button type="submit">Gửi thông tin</button>
+ </form>
+</body>
+</html>
