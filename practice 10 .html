@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://myserver.com" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="Full name">Full name</label>
+                </td>
+                <td>
+                    <input type="text" id="Full name" name="Full name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of birth:</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="dob"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" id="Gender" value="Male">Male
+                    <input type="radio" name="Gender" id="Gender" value="Female">Female
+                    <input type="radio" name="Gender" id="Gender" value="Non">None of them
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Phone number">Phone number:</label>
+                </td>
+                <td>
+                    <input type="tel" id="Phone number" name="phone"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="company">Company name:</label>
+                </td>
+                <td>
+                    <input type="text" id="company" name="company"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role of company">Role of company:</label>
+                </td>
+                <td>
+                    <section id="role in company" name="role  in company">
+                        <option value="CEO">Chief executive officer</option>
+                        <option value="CTO">Chief technology officer</option>
+                    </section>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="company scale">Company scale::</label>
+                </td>
+                <td>
+                    <section id="company scale" name="company scale">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </section>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="company's major">Company major:</label>
+                </td>
+                <td>
+                    <input type="text" id="company's major" name="company's major"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reason to join the club">Reasons to join the club :</label>
+                </td>
+                <td>
+                    <textarea type="text" id="reason to join the club" name="reason to join the club" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="leadership experience">Leadership experiences:</label>
+                </td>
+                <td>
+                    <textarea type="text" id="leadership experience" name="leadership experience" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="goals of joining the club">Goals of joining the club:</label>
+                </td>
+                <td>
+                    <textarea type="text" id="goals of joining the club" name="goals of joining the club" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="events wanting to join">Events wanting to join:</label>
+                </td>
+                <td>
+                    <select name="events wanting to join" id="events wanting to join">
+                        <option value="networking">Networking</option>
+                        <option value="workshop">Workshops</option>
+                        <option value="cofnerence">Conference</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="subscribe to newsletter">Subscribe to newsletter:</label>
+                </td>
+                <td>
+                   <input type="radio" name="subscribe to newsletter" id="subscribe to newsletter" value="yes">Yes 
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Rigister membership</button>
+    </form>
+</body>
+</html>
