@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://myserver.com" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="Họ và tên">Họ và tên:</label>
+                </td>
+                <td>
+                <input type="text" id="Họ và tên" name="name"/>
+                </td>
+            </tr>
+            <tr></tr>
+                <td>
+                    <label for="Ngày sinh">Ngày sinh:</label>
+                </td>
+                <td>
+                    <input type="date" name="Ngày sinh" id="Ngày sinh">
+                </td>
+            <tr>
+                <td>
+                    <label for="Giới tính">Giới tính:</label>
+                </td>
+                <td>
+                    <input type="radio" name="Giới tính" value="Nam">Nam
+                    <input type="radio" name="Giới tính" value="Nữ">Nữ
+                </td>
+            <tr>
+                <td>
+                    <label for="Số điện thoại">Số điện thoại:</label>
+                </td>
+                <td>
+                    <input type="tel" name="Số điện thoại" id="Số điện thoại">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="Email" id="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="adress">Dia chi:</label>
+                </td>
+                <td>
+                    <input type="text" name="adress" id="adress">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role">Vai tro nhom</label>
+                </td>
+                <td>
+                    <select name="role" id="role">
+                        <option value="leader">Leader</option>
+                        <option value="member">Meber</option>
+                        <option value="meber">Mageger</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="favorite">So thich:</label> 
+                </td>
+                <td>
+                    <input type="text" name="favorite" id="favorite">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="skill">Ki nang:</label>
+                </td>
+                <td>
+                    <textarea name="skill" id="skill" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="free time">Thoi gian ranh:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="free time" id="free time" value="sang">Sang
+                    <input type="checkbox" name="free time" id="free time" value="chieu">Chieu
+                    <input type="checkbox" name="free time" id="free time" value="toi">Toi
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reason">Li do tham gia nhom:</label>
+                </td>
+                <td>
+                    <textarea type="text" name="reason" id="reason" cols = "30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fovarite color">Mau yeu thich:</label>
+                </td>
+                <td>
+                    <input type="color" name="fovarite color" id="fovarite color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="registration status">Dang ki nhan ban tin:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="registration status" id="registration status" value="Co">Co
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="notification type">Nhan thong bao qua email:</label>
+                </td>
+                <td>
+                    <input type="radio" name="notification type" id="notification type" value="email">Email
+                    <input type="radio" name="notification type" id="notification type" value="sms">SMS
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Đăng ký thành viên"/>
+    </form>
+<body>    
+</html>
